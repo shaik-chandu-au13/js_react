@@ -1,0 +1,10 @@
+Number Guessing Game with Loops and Conditions
+Create a number guessing game where:
+
+The computer randomly picks a number between 1 and 100.
+The user has to guess the number using a while loop.
+After each guess, the program should give a hint:
+If the guess is less than the target, print "Too Low!".
+If the guess is more than the target, print "Too High!".
+The loop should break if the user guesses correctly.
+After 10 failed attempts, the program should end and print "Game Over".

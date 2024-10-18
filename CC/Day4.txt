@@ -1,0 +1,13 @@
+1. Write a for loop that calculates the factorial of a given number (e.g., 5! = 5 * 4 * 3 * 2 * 1).
+
+2. Prime Number Generator: Write a function using a for loop that generates and returns all prime numbers between two given numbers.
+
+3.FizzBuzz Variation
+Write a function that iterates from 1 to 100 using a loop and prints:
+
+"Fizz" for multiples of 3.
+"Buzz" for multiples of 5.
+"FizzBuzz" for multiples of both 3 and 5.
+The number itself if none of the conditions are met.
+
+

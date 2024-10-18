@@ -21,3 +21,11 @@ ternary operator (short form of if-else)
 1. Introduction to Loops
 for
 while
+do while
+break ad continue
+
+
+
+Functions
+arrow Functions
+version control

@@ -70,11 +70,10 @@
 // == compares only value
 // === compares value and also dataType
 
-
 // let z =4
 // let y = 5
 
-// and, or 
+// and, or
 // && , ||
 // let cond1 = false
 // let cond2 = false
@@ -84,7 +83,6 @@
 // let arr = [chanduObject,address,chanduObject.address.country]
 
 // let arr2 = [  [1,2,3]  ,  [chanduObject,address]  ,  [7,8,9]  ]
-
 
 //index    0,1,2,3,4
 // indexing starts from zero to array.length-1
@@ -99,47 +97,40 @@
 // else if
 // else
 
-let score = 85
+// let score = 85
 
-
-if(score>90){
-  console.log("A grade")
-}
-else if(score>80 && score<90){
-  console.log("B grade")
-}
-else if(score>70 && score<80){
-  console.log("B grade")
-}
-else if(score>60 && score<50){
-  console.log("B grade")
-}else{
-  console.log("fail")
-}
-
-
-
+// if(score>90){
+//   console.log("A grade")
+// }
+// else if(score>80 && score<90){
+//   console.log("B grade")
+// }
+// else if(score>70 && score<80){
+//   console.log("B grade")
+// }
+// else if(score>60 && score<50){
+//   console.log("B grade")
+// }else{
+//   console.log("fail")
+// }
 
 // switch case
 
-let fruit = "apple"
+// let fruit = "apple"
 
-switch(fruit){
-case "apple":{
-  console.log("apple is selected")
-}
-break;
-case "banana":{
-  console.log("banana is selected")
-}
-break;
-default:{
-  console.log(" nothing selected")
-}
-}
-
-
-
+// switch(fruit){
+// case "apple":{
+//   console.log("apple is selected")
+// }
+// break;
+// case "banana":{
+//   console.log("banana is selected")
+// }
+// break;
+// default:{
+//   console.log(" nothing selected")
+// }
+// }
 
 // if(age>18){
 //   console.log("major")
@@ -149,15 +140,62 @@ default:{
 // }
 
 // ternary Operator
-// condition ? condition satisfies : else 
-let age = 20
-hasID = true
+// condition ? condition satisfies : else
+// let age = 20
+// hasID = true
+
+// age > 18
+//   ? hasID
+//     ? console.log("you are a major and allowed inside")
+//     : console.log("You are not allowed")
+//   : console.log("I am minor");
+
+// for loop
+
+// for(initialization; condition ; incremetn/decrement){
+
+// }
+
+// for (let i = 0;i<=5;i++){
+//   console.log("Hello",i)
+// }
+
+let arr = [12,42,53,64,95,26,47,68,29,110]
+let sum = 0
+for( let i=0 ; i< arr.length ;i++   ){
+  if(arr[i]===64){
+    break
+  }
+console.log(arr[i])
 
 
-age > 18
-  ? hasID
-    ? console.log("you are a major and allowed inside")
-    : console.log("You are not allowed")
-  : console.log("I am minor");
 
 
+
+
+
+}
+// console.log(sum)
+
+// while (condition){
+//   // code to be executed
+// }
+
+// let arr = [12, 42, 53, 64, 95, 26, 47, 68, 29, 110];
+// let sum = 0;
+// let i = 0;
+// while(i<arr.length){
+//   sum = sum+arr[i]
+//   i++
+// }
+// console.log(sum)
+
+// do while
+
+// do {
+//   sum = sum + arr[i];
+//   i++;
+// } while (i < arr.length);
+// console.log(sum)
+
+// break and continue 
