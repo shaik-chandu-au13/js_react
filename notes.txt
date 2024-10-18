@@ -1,0 +1,23 @@
+15/10/2024
+variable decleration - Var, Let, Const
+DataTypes - string, Number, Boolean, Null, Undefined,Object,
+Operators - + - * / %
+
+
+array
+comparision ==,===,!=,!==,<,>,<=,>=
+
+17/10/2024
+
+Conditional statements
+
+if
+else
+else if
+switch
+ternary operator (short form of if-else)
+
+18/10/2024
+1. Introduction to Loops
+for
+while

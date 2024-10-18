@@ -1,0 +1,81 @@
+Challenge 1: Volume and Surface Area of a Cylinder
+Write a program that:
+
+Declares two variables radius and height to store the radius and height of a cylinder.
+Calculates the volume and surface area of the cylinder using the formulas:
+Volume = π * radius^2 * height (use 3.14 for π)
+Surface Area = 2 * π * radius * (radius + height)
+Prints the volume and surface area.
+Example:
+bash
+Copy code
+Input:
+radius = 5
+height = 10
+
+Output:
+Volume: 785.0
+Surface Area: 471.0
+
+
+
+
+Challenge 2: Sum of First N Natural Numbers (Using Formula)
+Write a program that:
+
+Declares a variable n to store the number of terms.
+Uses the formula to calculate the sum of the first n natural numbers:
+Sum = n * (n + 1) / 2
+Prints the sum.
+Example:
+bash
+Copy code
+Input:
+n = 100
+
+Output:
+Sum: 5050
+
+
+
+
+Challenge 3: Compound Interest Calculation
+Write a program that:
+
+Declares four variables principal, rate, time, and n (number of times interest is compounded per year).
+Calculates the compound interest using the formula:
+Amount = principal * (1 + rate / (n * 100)) ^ (n * time)
+Compound Interest = Amount - Principal
+Prints the compound interest and the total amount.
+Example:
+bash
+Copy code
+Input:
+principal = 1000
+rate = 5
+time = 2
+n = 4
+
+Output:
+Compound Interest: 104.3
+Total Amount: 1104.3
+
+
+
+
+Challenge 4: BMI Calculator
+Write a program that:
+
+Declares two variables weight (in kg) and height (in meters).
+Calculates the BMI using the formula:
+BMI = weight / (height^2)
+Prints the BMI.
+Example:
+bash
+Copy code
+Input:
+weight = 70
+height = 1.75
+
+Output:
+BMI: 22.86

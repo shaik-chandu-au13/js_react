@@ -1,0 +1,80 @@
+HTML Assignment: Create a Personal Webpage
+Objective:
+Create a simple webpage about yourself using basic HTML elements. The webpage should include headings, paragraphs, links, images, lists, and tables. This exercise will help you practice structuring content with HTML tags.
+
+
+Task 1: HTML Document Structure
+Create an HTML file (index.html) that follows the basic HTML structure:
+
+The <!DOCTYPE html> declaration at the top.
+The <html>, <head>, and <body> tags.
+Inside the <head>, include a <title> tag to set the webpage's title.
+
+
+Task 2: Add Headings and Paragraphs
+In the body of the document:
+
+Use at least three levels of headings (<h1>, <h2>, <h3>).
+Write a few sentences about yourself in two separate paragraphs using the <p> tag.
+Example: Your hobbies, favorite books, or a short bio.
+
+
+Task 3: Add an Image
+Include an image using the <img> tag:
+
+Find an image (a profile picture or any image relevant to you) and place it inside the same folder as your HTML file.
+Use the <img> tag to display the image on your webpage.
+Example: <img src="profile.jpg" alt="My Profile Picture" width="300">
+
+
+Task 4: Create a List
+Add an unordered list (<ul>) or ordered list (<ol>) to list your favorite things:
+
+Create a list of your favorite books, movies, or hobbies.
+Use the <li> tag to add items inside the list.
+
+
+Task 5: Add Links
+Include two types of links on your page:
+
+A link to another webpage (e.g., a link to your favorite website, using the <a> tag).
+Example: <a href="https://www.example.com">Visit my favorite website</a>
+An anchor link that links to another section within your webpage (use an id attribute on a section and link to it).
+
+
+Task 6: Create a Table
+Create a table to display your skills or qualifications using the <table> tag:
+
+Add two columns: Skill and Experience (Years).
+Add at least three rows.
+Use the <th> tag for table headings and <td> for table data.
+
+Task 7: Inline Styling (Optional)
+For extra practice, use inline styles to change the color or font size of some text:
+
+Example: <h1 style="color: blue;">About Me</h1>
+
+
+Deliverables:
+
+A fully functional HTML file (index.html) containing:
+Proper document structure (<!DOCTYPE html>, <html>, <head>, <body>)
+Headings and paragraphs
+An image with the <img> tag
+A list (unordered or ordered)
+Two types of links
+A table
+Optional inline styles
+
+
+Bonus Task (Optional):
+Create a simple form at the bottom of your page with input fields for a name and email and a submit button. Use the <form>, <input>, and <button> tags.
+
+
+Submission Guidelines:
+Submit the index.html file.
+Ensure all content (text, images, etc.) is structured neatly.
+Make sure to test the webpage by opening the file in a web browser.
+
+
+This assignment will help you become familiar with the basics of HTML and understand how to structure a webpage effectively.

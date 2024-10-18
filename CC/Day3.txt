@@ -1,0 +1,20 @@
+Discount Calculation: Write a program that calculates the total price of items after applying a discount:
+
+If the total is more than $500, apply a 10% discount.
+If the total is between $300 and $500, apply a 5% discount.
+Otherwise, no discount.
+
+
+Tax Bracket Calculator: Implement a tax bracket system using if-else conditions:
+
+Income ≤ $10,000: 0% tax
+Income > $10,000 and ≤ $50,000: 10% tax on the amount over $10,000
+Income > $50,000 and ≤ $100,000: 20% tax on the amount over $50,000
+Income > $100,000: 30% tax on the amount over $100,000 Calculate and print the total tax based on the income entered by the user.
+
+
+Password Strength Checker: Write a program that checks the strength of a password based on the following criteria:
+
+Less than 6 characters: "Weak"
+6-10 characters: "Moderate"
+More than 10 characters, including at least one number, one uppercase letter, and one special character: "Strong" Use nested if-else conditions for this validation.
