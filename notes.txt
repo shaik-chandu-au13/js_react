@@ -25,7 +25,13 @@ do while
 break ad continue
 
 
-
+21/10/2024
 Functions
 arrow Functions
+function expression
+Function with Multiple Parameters
+Default Parameters
+Immediately Invoked Function Expression (IIFE)
+
+
 version control

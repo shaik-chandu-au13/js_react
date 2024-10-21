@@ -160,13 +160,13 @@
 //   console.log("Hello",i)
 // }
 
-let arr = [12,42,53,64,95,26,47,68,29,110]
-let sum = 0
-for( let i=0 ; i< arr.length ;i++   ){
-  if(arr[i]===64){
-    break
-  }
-console.log(arr[i])
+// let arr = [12,42,53,64,95,26,47,68,29,110]
+// let sum = 0
+// for( let i=0 ; i< arr.length ;i++   ){
+//   if(arr[i]===64){
+//     break
+//   }
+// console.log(arr[i])
 
 
 
@@ -174,7 +174,7 @@ console.log(arr[i])
 
 
 
-}
+// }
 // console.log(sum)
 
 // while (condition){
@@ -199,3 +199,36 @@ console.log(arr[i])
 // console.log(sum)
 
 // break and continue 
+
+
+// block of code which performs a task
+
+// function Decleration
+function greet(name="default name"){
+
+  console.log("Hello",name,"  welcome to JS and react")
+
+}
+
+// Function Expression
+// let greet = function(name){
+//   console.log("Hello",name,"  welcome to JS and react")
+
+// }
+
+
+// Arrow functions
+
+// let greet = (name) => {
+//   console.log("Hello",name,"  welcome to JS and react")
+// }
+
+
+// function sum (a,b){
+//   return a+b
+// }
+
+// let mySumFun = (a,b) => a+b
+
+// greet("ravi")
+
