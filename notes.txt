@@ -34,4 +34,10 @@ Default Parameters
 Immediately Invoked Function Expression (IIFE)
 
 
+23/10/2024
+Timer function
+setTimeout
+setInterval
+Callbacks
+
 version control

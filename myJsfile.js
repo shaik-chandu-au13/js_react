@@ -204,11 +204,11 @@
 // block of code which performs a task
 
 // function Decleration
-function greet(name="default name"){
+// function greet(name="default name"){
 
-  console.log("Hello",name,"  welcome to JS and react")
+//   console.log("Hello",name,"  welcome to JS and react")
 
-}
+// }
 
 // Function Expression
 // let greet = function(name){
@@ -231,4 +231,90 @@ function greet(name="default name"){
 // let mySumFun = (a,b) => a+b
 
 // greet("ravi")
+
+// ------------------------------ Js in a single threaded synchronus programing language
+
+// allows us to execute code at speific intervals or a delay
+// setTimeout() -- executes a piece of code after a specified delay in milliseconds 1sec = 1000milliseconds
+// setInterval() -- runs a function repeatedly at specified intervals
+
+
+// setTimeout(functions,delay)
+
+// console.log("before timeout")
+// setTimeout(()=>{
+//   console.log("hello")
+// },5000)
+// console.log("after timeout")
+
+// setInterval(function,interval)
+
+// const interval1 = setInterval(()=>{
+// console.log("hiiii")
+// },1000)
+
+
+// setTimeout(()=>{
+//   clearInterval(interval1)
+// },5000)
+
+// 30
+
+// function countdown(seconds) {
+//   const intervalID = setInterval(() => {
+//     if (seconds > 0) {
+//       console.log(seconds);
+//       seconds--;
+//     } else {
+//       console.log("TIME UP");
+//       clearInterval(intervalID);
+//     }
+//   }, 
+//   1000);
+// }
+
+// countdown(10);
+
+// Callbacks
+// function greet(name="default name"){
+
+//   console.log("Hello",name,"  welcome to JS and react")
+
+// }
+
+// function sayHello(callbackfunction){
+//   const name = "chandu"
+//   callbackfunction(name)
+// }
+
+// function sayHello(callbackfunction){
+//   console.log("calling name function .....")
+//  setTimeout(()=>{
+//   const name = "chandu"
+//   callbackfunction(name)
+//  },3000)
+// }
+
+// sayHello(greet)
+
+
+function fetchData(xyz) {
+  console.log("fetching data ...");
+  setTimeout(() => {
+    const error = false
+    const data = { name: "chandu", age: 29 };
+    xyz(error,data);
+  }, 5000);
+}
+
+function processData(error,data) {
+  if(error){
+    console.log("something went wrong")
+  }else{
+    console.log("processing data: ", data);
+  }
+}
+
+fetchData(processData);
+
 
