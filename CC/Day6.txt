@@ -1,0 +1,8 @@
+Question 1: Create a function multiplyNumbers that accepts two numbers and a callback. The function should multiply the numbers and pass the result to the callback.
+
+
+Question 2: Simulate a simple asynchronous function getUserData, which fetches user data after 2 seconds, and a callback displayData that displays the user's name.
+
+
+Question 3: Implement an error-first callback function for a function getUserById, which simulates retrieving a user by their ID after a delay. 
+If the ID is invalid, return an error in the callback.

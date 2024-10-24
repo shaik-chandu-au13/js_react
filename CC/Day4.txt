@@ -1,6 +1,26 @@
 1. Write a for loop that calculates the factorial of a given number (e.g., 5! = 5 * 4 * 3 * 2 * 1).
 
 2. Prime Number Generator: Write a function using a for loop that generates and returns all prime numbers between two given numbers.
+let startingNumber = 5
+let endingNumber = 100
+// 5/2/3/4
+let prime = []
+
+function checkPrimes(startingNumber,endingNumber){
+  for(i=startingNumber;i<endingNumber;i++){
+  let isPrime = true;
+  for(j=2;j<i;j++){
+    if(i%j===0){
+      isPrime=false;
+      break
+    }
+  }
+  if(isPrime){
+    prime.push(i)
+  }
+}}
+checkPrimes(startingNumber,endingNumber)
+console.log(prime)
 
 3.FizzBuzz Variation
 Write a function that iterates from 1 to 100 using a loop and prints:
@@ -11,3 +31,14 @@ Write a function that iterates from 1 to 100 using a loop and prints:
 The number itself if none of the conditions are met.
 
 
+for(i=1;i<100;i++){
+if(i%5==0 && i%3 === 0){
+  console.log("FizzBuzz")
+}else if(i%3 === 0){
+  console.log("Fizz")
+}else if(i%5==0 ){
+  console.log("Buzz")
+}else{
+  console.log(i)
+}
+}

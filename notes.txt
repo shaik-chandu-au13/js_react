@@ -41,3 +41,99 @@ setInterval
 Callbacks
 
 version control
+
+Week 1: JavaScript Basics & Execution Context
+Day 1: How JavaScript Works & Execution Context
+
+Overview of JavaScript Engine
+Creation of Execution Context
+Global Execution Context
+Day 2: How JavaScript Code is Executed & Call Stack
+
+Call Stack: How JavaScript executes code line by line
+Single-threaded nature of JavaScript
+Day 3: Hoisting in JavaScript
+
+Hoisting of variables and functions
+Common misconceptions about hoisting
+Day 4: Understanding Functions & Variable Environment
+
+Function declarations vs expressions
+Function execution context and variable environment
+Day 5: Shortest JS Program, window, and this Keyword
+
+The window object
+How the this keyword behaves in different contexts
+Week 2: Scopes, Closures & Errors
+Day 6: undefined vs not defined in JavaScript
+
+Difference between undefined and undeclared variables
+Day 7: The Scope Chain & Lexical Environment
+
+Scope, lexical environment, and how they connect
+Global and local scopes
+Day 8: let & const in JS - Temporal Dead Zone
+
+Behavior of let and const variables during hoisting
+Explanation of Temporal Dead Zone
+Day 9: Block Scope & Shadowing
+
+Understanding block scope (let, const)
+Variable shadowing and how it affects code
+Day 10: Closures in JavaScript
+
+Definition and usage of closures
+Importance of closures in real-world applications
+Week 3: Functions & Asynchronous JavaScript
+Day 11: setTimeout + Closures Interview Question
+
+Common interview questions involving closures and setTimeout
+Day 12: First-Class Functions & Anonymous Functions
+
+What first-class functions mean in JavaScript
+Working with anonymous functions
+Day 13: Callback Functions & Event Listeners
+
+Introduction to callbacks
+Using callbacks in event listeners
+Day 14: Asynchronous JavaScript & Event Loop
+
+The event loop explained
+Web APIs and the task/microtask queues
+Day 15: Handling Asynchronous Code with setTimeout
+
+How setTimeout works behind the scenes
+Common pitfalls and how to avoid them
+Week 4: Advanced JavaScript: Promises & Async/Await
+Day 16: Higher-Order Functions & Functional Programming
+
+Higher-order functions: what they are and how they work
+Introduction to functional programming in JavaScript
+Day 17: Array Methods: map, filter, reduce
+
+Explanation and examples of map(), filter(), and reduce() functions
+Day 18: Callback Hell
+
+Problems with deeply nested callbacks (callback hell)
+Solutions to callback hell
+Day 19: Promises in JavaScript
+
+Introduction to promises
+How promises solve callback hell
+Day 20: Creating Promises & Error Handling
+
+How to create promises, chain them, and handle errors
+Week 5: Async/Await & Promises
+Day 21: Async/Await
+
+How async and await simplify promise-based code
+Day 22: Promise APIs
+
+Common Promise APIs like Promise.all, Promise.race, etc.
+Day 23: Trust Issues with setTimeout
+
+Deeper understanding of setTimeout’s behavior and potential issues
+Day 24: Final Review & Hands-On Practice
+
+Review key concepts learned
+Practice problems covering hoisting, closures, async code, promises, etc.

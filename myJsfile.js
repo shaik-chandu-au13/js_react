@@ -298,23 +298,43 @@
 // sayHello(greet)
 
 
-function fetchData(xyz) {
-  console.log("fetching data ...");
-  setTimeout(() => {
-    const error = false
-    const data = { name: "chandu", age: 29 };
-    xyz(error,data);
-  }, 5000);
-}
+// function fetchData(xyz) {
+//   console.log("fetching data ...");
+//   setTimeout(() => {
+//     const error = false
+//     const data = { name: "chandu", age: 29 };
+//     xyz(error,data);
+//   }, 5000);
+// }
 
-function processData(error,data) {
-  if(error){
-    console.log("something went wrong")
-  }else{
-    console.log("processing data: ", data);
-  }
-}
+// function processData(error,data) {
+//   if(error){
+//     console.log("something went wrong")
+//   }else{
+//     console.log("processing data: ", data);
+//   }
+// }
 
-fetchData(processData);
+// fetchData(processData);
 
+// iterate through objects
 
+// let obj = {
+//   Fname:"shaik",
+//   Lname:"chandu",
+//   age:29,
+//   city:"HYD",
+//   Phone:994808847
+// }
+
+// // for in
+// for( let key in obj){
+//   console.log(key)
+// }
+
+// let keys = Object.values(obj)
+// console.log(keys)
+
+// console.log(Object.values(obj))
+
+// console.log(Object.entries(obj))
