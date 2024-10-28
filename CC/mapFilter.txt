@@ -1,0 +1,20 @@
+1. Given the array const numbers = [1, 2, 3, 4, 5], create a new array that contains the squares of each number.
+
+
+2. Given the array const ages = [15, 22, 18, 30, 17], create a new array that includes only the ages that are 18 or older.
+
+
+3.Given the array const users = [{ name: 'Alice', age: 25 }, { name: 'Bob', age: 17 }, { name: 'Charlie', age: 30 }], create a new array of names of users who are 18 or older.
+
+4.Given the array of products:
+Create a new array that contains the names of the products that are in stock and cost less than $1000.
+const products = [
+    { name: 'Laptop', price: 1200, inStock: true },
+    { name: 'Phone', price: 800, inStock: false },
+    { name: 'Tablet', price: 300, inStock: true }
+];
+
+
+
+Given the array const students = [{ name: 'John', scores: [75, 85, 95] }, { name: 'Jane', scores: [95, 100, 90] }, { name: 'Jim', scores: [60, 70, 80] }], 
+create a new array of students who have an average score of 80 or above, including their names and average scores.

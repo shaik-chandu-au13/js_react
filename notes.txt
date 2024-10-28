@@ -40,7 +40,11 @@ setTimeout
 setInterval
 Callbacks
 
+
+
 version control
+
+25/10/2024
 
 Week 1: JavaScript Basics & Execution Context
 Day 1: How JavaScript Works & Execution Context
@@ -57,6 +61,14 @@ Day 3: Hoisting in JavaScript
 Hoisting of variables and functions
 Common misconceptions about hoisting
 Day 4: Understanding Functions & Variable Environment
+
+28/10/2024
+
+Higher-Order Functions
+map
+filter
+
+
 
 Function declarations vs expressions
 Function execution context and variable environment
