@@ -65,7 +65,7 @@
 // Map() filter()  reduce()
 // map is a method creates a new array populated with the results of calling a provided function on every element in the calling array. 
 // It does not modify the original array.
-let nums = [1,2,3,4,5,6,7,8,9]
+// let nums = [1,2,3,4,5,6,7,8,9]
 
 
 
@@ -96,12 +96,77 @@ let nums = [1,2,3,4,5,6,7,8,9]
 //     filtered.push(nums[i])
 // }
 // }
-let filteredNumberSquares = nums
-  .filter((element) => {
-    return element > 5;
-  })
-  .map((ele) => {
-    return ele * ele;
-  });
-//   Prototype
-console.log(filteredNumberSquares)
+// let filteredNumberSquares = nums
+//   .filter((element) => {
+//     return element > 5;
+//   })
+//   .map((ele) => {
+//     return ele * ele;
+//   });
+// //   Prototype
+// console.log(filteredNumberSquares)
+
+
+
+// let nums = [1,2,3,4,5,6,7,8,9]
+// let greaterNums = nums.map((element)=>{
+//   if(element>5){
+//     return element
+//   }
+// })
+
+// let greaterNums2 = []
+
+// nums.forEach((element)=>{ 
+//   if(element>5){
+//     greaterNums2.push(element)
+//   }
+// })
+
+// console.log(greaterNums,greaterNums2)
+
+// Reduce
+// Array.reduce((accumulator,currentValue)=>{
+//   // logic
+// }, initialValue)
+// let scores =  [75, 85, 95]
+// sum = 0
+// for(let i =0;i<scores.length;i++){
+//   sum = sum+scores[i]
+// }
+// const sum = scores.reduce((acc,num)=>{
+// return acc+num
+// },0)
+
+// let nums = [5,8,3,67,34,88,33,45,9,0,4,22,454,67,98,222]
+// // min = 5
+// let minimum = nums.reduce((a,b)=>{
+// if(a<b){
+//   return a
+// }else{
+//   return b
+// }
+// },nums[0])
+
+// let maximum = nums.reduce((a,b)=>(a>b ? a : b ),nums[0])
+// console.log(maximum)
+
+// Given the array const students = [{ name: 'John', scores: [75, 85, 95] }, { name: 'Jane', scores: [95, 100, 90] }, { name: 'Jim', scores: [60, 70, 80] }], 
+// create a new array of students who have an average score of 80 or above, including their names and average scores.
+
+// const students = [
+//   { name: "John", scores: [75, 85, 95] },
+//   { name: "Jane", scores: [95, 100, 90] },
+//   { name: "Jim", scores: [60, 70, 80] },
+// ];
+
+// const HighScorers = students.map((ele)=>( {
+//   name:ele.name,
+//   average:ele.scores.reduce((acc,cur)=>(acc+cur),0)/ele.scores.length
+//   })
+// ).filter(student=>student.average>80)
+
+// console.log(HighScorers)
+
+
+

@@ -1,0 +1,63 @@
+practice questions with input and expected output using map, filter, and reduce:
+
+1. Average Age Calculation
+Input:
+const people = [
+    { name: 'Alice', age: 25 },
+    { name: 'Bob', age: 17 },
+    { name: 'Charlie', age: 30 }
+];
+Expected Output:
+25 (Average age of adults)
+
+
+
+2. Total Revenue Calculation
+Input:
+const sales = [
+    { category: 'A', revenue: 120 },
+    { category: 'B', revenue: 80 },
+    { category: 'A', revenue: 100 }
+];
+Expected Output:
+{ A: 220, B: 0 } (Total revenue by category)
+
+
+
+
+3.Finding the Longest Word
+Input:
+const sentences = [
+    'The quick brown fox',
+    'Jumps over the lazy dog'
+];
+Expected Output:
+'jumps' (The longest word)
+
+
+
+
+4.Top N Students by Average Score
+Input:
+const students = [
+    { name: 'John', scores: [75, 85, 95] },
+    { name: 'Jane', scores: [95, 100, 90] },
+    { name: 'Jim', scores: [60, 70, 80] }
+];
+const N = 2;
+Expected Output:
+[ { name: 'Jane', avg: 95 }, { name: 'John', avg: 85 } ]
+
+
+
+
+
+5.Total Items Sold Calculation
+Input:
+const transactions = [
+    { item: 'Apples', quantity: 5 },
+    { item: 'Bananas', quantity: 0 },
+    { item: 'Oranges', quantity: 10 }
+];
+Expected Output:
+15 (Total items sold)
