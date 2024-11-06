@@ -68,6 +68,9 @@ Higher-Order Functions
 map
 filter
 
+6/11/2024
+Scopes, Closures & Errors
+
 
 
 Function declarations vs expressions
